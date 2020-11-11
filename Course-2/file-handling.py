@@ -33,6 +33,7 @@ for line in fHand2:
     if line.startswith('From: '):
         line = line.rstrip()  # this line skips the extra \n added
         print('Search From: ', line)
+        print('First 20 characters', line[:20])
 
 
 # Searching
