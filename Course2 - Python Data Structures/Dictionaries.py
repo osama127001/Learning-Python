@@ -70,7 +70,7 @@ for line in handle:
 # Creating Histogram
 histogram = dict()
 for user in users:
-    histogram[user] = histogram.get(user, 0) + 1;
+    histogram[user] = histogram.get(user, 0) + 1
 
 # Extracting username with maximum number of emails
 bigUser = None
